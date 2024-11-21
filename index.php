@@ -4,7 +4,7 @@
 $nome = "Raphael";
 $sobrenome = "Martins";
 $idade = 24;
-$numero = 10;
+$numero = 5;
 $mediaIdade = 30;
 
 // echo $idade ."<br>";
@@ -20,6 +20,18 @@ if ($idade > $mediaIdade) {
     echo "<p> Idade igual a 23 anos";
 }else {
     echo "<p> Idade não é maior que " . $mediaIdade . " e também não é igual a 23 anos";
+}
+
+
+// Laços de repetição
+for($i=0; $i < $numero; $i++){
+
+    echo "<br> o valor de i é ".$i;
+
+    if($i == 3){
+        echo "<p>Contador é 3<p>";
+    }
+    
 }
 
 ?>
